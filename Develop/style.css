@@ -1,0 +1,98 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: 1px solid black;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px; 
+}
+
+
+.row {
+  white-space: nowrap;
+  height: 80px;
+  border-top: 1px solid white;
+  margin-bottom: 5px;
+} 
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.past {
+  background-color: #d3d3d3;
+  font-size: large;
+  color: black;
+}
+
+.present {
+  background-color: #ff6961;
+  font-size: large;
+  color: black;
+}
+
+.future {
+  background-color: #77dd77;
+  font-size: large;
+  color: black;
+}
+
+.saveBtn {
+  border: 2px solid black;
+  background-color: #06aed5;
+  color: white;
+  height: 100%;
+  width: 50%;
+}
+
+.saveBtn, i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.deleteBtn {
+  border: 2px solid black;
+  height: 100%;
+  width: 40%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+
+.btns {
+  display: inline-block;
+  height: 80px;
+  border: 2px solid black;
+}
+
+.container {
+  width: 100%;
+}
