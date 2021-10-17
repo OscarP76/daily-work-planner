@@ -59,4 +59,4 @@ function toStorage() {
         $('.hour' + key + ' .description').val(localStorage.getItem(key));
     }
 
-}
+};
