@@ -8,7 +8,7 @@ $(document).ready(function () {
 });
 
 function changeColor() {
-    let currentTime = moment().hours();
+    let currentTime = moment().hour();
 
     // past, present or future logic for time blocks
     $(".description").each(function () {
@@ -56,7 +56,7 @@ $(".deleteBtn").click(function () {
 // Code for entering and saving text in the date blocks
 function toStorage() {
     for (var key in localStorage) {
-        $('.hours' + key + ' .description').val(localStorage.getItem(key));
+        $('.hour' + key + ' .description').val(localStorage.getItem(key));
     }
 
 }
